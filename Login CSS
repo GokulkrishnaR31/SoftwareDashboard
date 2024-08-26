@@ -1,0 +1,95 @@
+/* style.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+/* Overall container for the dashboard */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #4da1f0; /* Light gray background for the entire dashboard */
+}
+
+/* Feed (Homepage) */
+.feed {
+    flex: 1;
+    background-color: #f841cd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+
+.profile {
+    flex: 1;
+    background-color: #cbed21;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Chat Messages */
+.chat {
+    flex: 1;
+    background-color: #a023ee;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    margin-bottom: 20px;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: #888;
+}
+
+/* Notifications */
+.notifications {
+    flex: 1;
+    background-color: #58e83e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.notification .icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #ff9900; /* Custom notification icon color */
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
