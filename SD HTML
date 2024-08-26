@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Social Media Dashboard</title>
+</head>
+<body style="background-color: rgb(75, 169, 247);">
+    <center><h1 style="background-color: rgb(63, 142, 246);">Social Media Dashboard</h1></center>
+    <div class="container">
+        <div class="feed">
+            <div class="post">
+                <h2>User Avatar</h2>
+                <img src="anime-male-avatar_950633-919.avif" alt="User Avatar" width="100px">
+                <p>Post content goes here...</p>
+                <p>URL:https//videolike</p>
+                <button class="like-button">Like</button>
+                <button class="comment-button">Comment</button>
+                <button class="share-button">Share</button>
+            </div>
+        </div>
+
+        
+        <div class="profile">
+            <h2>User Profile</h2>
+            <img src="pngtree-man-avatar-isolated-png-image_9935818.png" alt="User Profile" width="100px">
+            <h3>User Name</h3>
+            <h4>Bio:</h4> <p>Web developer | Coffee lover</p>
+            <!-- Recent activity section -->
+        </div>
+
+      
+        
+        <div class="chat">
+            <h2>Message</h2>
+            <div class="message">
+                <h3>Friend Name</h3>
+                <img src="download-welcome-to-chatoray-india-75677-1024x1012.png" alt="Friend Avatar" width="100px">
+                <p>Hey, how's it going?</p>
+                <span class="timestamp">2 mins ago</span>
+                <h3>Reply</h3> 
+                <input type="text"> <h2>▶</h2>
+
+            </div>
+            
+        </div>
+
+        
+        <div class="notifications">
+            <h2>Notifications</h2>
+            <div class="notification">
+                <span class="icon">🔔</span>
+                <p>New follower: John Doe</p>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>
